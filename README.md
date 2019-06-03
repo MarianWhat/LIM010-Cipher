@@ -17,6 +17,10 @@ Los usuarios podrán cifrar y descifrar sus escritos en el momento que lo deseen
 - ¿Cual fue el feedback del primer prototipo?
   Tuvo buena aceptación, se sugirió añadir un Botón de Limpiar y otro de copiar. Para mejorar la temática se reorganizo y añadió algunos elementos para acercarlo visualmente a un diario. A continuación se muestra las modificación del prototipo en papel:
 
+
+
+  __________________________________________________--
+
 # Cifrado César
 
 ## Índice
