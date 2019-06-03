@@ -3,10 +3,15 @@
 Es una aplicación donde se podrá cifrar y descifrar escritos personales.
 
 ## Investigación UX:
-DiarioApp, esta dirigido a usuarios de 9 a 12 años de edad. El objetivo es brindarle una zona segura donde los usuarios puedan cifrar y descrifrar sus escritos.
+DiarioApp, esta dirigido a usuarios de 9 a 12 años de edad, que realicen escritos diarios.
 
+: El objetivo es brindarle una zona segura donde sus escritos puedan estar protegidos contra intrusos.
 
+: ¿Como funciona?
+Los usuarios podrán cifrar y descifrar sus escritos en el momento que lo deseen, añadiéndole un código(Offset) a su cifrado para mayor seguridad.
 
+: Primer Prototipo de baja fidelidad en papel:
+![Con titulo](https://user-images.githubusercontent.com/19483987/58813397-4bf91500-85e9-11e9-8163-8252f5670deb.png)
 
 # Cifrado César
 
