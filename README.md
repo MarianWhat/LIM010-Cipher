@@ -1,8 +1,8 @@
-#DiarioApp
+# DiarioApp
 
 Es una aplicación donde se podrá cifrar y descifrar escritos personales.
 
-##Investigación UX:
+## Investigación UX:
 DiarioApp, esta dirigido a usuarios de 9 a 12 años de edad. El objetivo es brindarle una zona segura donde los usuarios puedan cifrar y descrifrar sus escritos.
 
 
