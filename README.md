@@ -9,13 +9,14 @@ DiarioApp, esta dirigido a usuarios de 9 a 12 años de edad, que realicen escrit
 
  : ¿Como funciona?
 Los usuarios podrán cifrar y descifrar sus escritos en el momento que lo deseen, añadiéndole un código(Offset) a su cifrado para mayor seguridad.
-
  : Primer Prototipo de baja fidelidad en papel:
 
-![](https://user-images.githubusercontent.com/19483987/58813397-4bf91500-85e9-11e9-8163-8252f5670deb.png)
-> Acá va la imagen
+![](https://user-images.githubusercontent.com/19483987/58813397-4bf91500-85e9-11e9-8163-8252f5670deb.png "Pie de Imagen")
 
-
+Primer termino
+ : Primera definición
+ : Segunda definición
+ 
 # Cifrado César
 
 ## Índice
