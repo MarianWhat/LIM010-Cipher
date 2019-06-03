@@ -14,6 +14,8 @@ Los usuarios podrán cifrar y descifrar sus escritos en el momento que lo deseen
 
 ![](https://user-images.githubusercontent.com/19483987/58813397-4bf91500-85e9-11e9-8163-8252f5670deb.png "Pie de Imagen")
 
+- ¿Cual fue el feedback del primer prototipo?
+  Tuvo buena aceptación, se sugirió añadir un Botón de Limpiar y otro de copiar. Para mejorar la temática se reorganizo y añadió algunos elementos para acercarlo visualmente a un diario. A continuación se muestra las modificación del prototipo en papel:
 
 # Cifrado César
 
