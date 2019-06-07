@@ -10,25 +10,28 @@
     <header><img src="img/DiarioApp.png"></header>
     <main>
     <section class="sec-inicio" id="sec-inicio">
-      <div class="contAcceso" id="contAcceso">
-        <img src="img/icon-acceso.png"><input id="pass" type="password" placeholder="Escribe tu clave aqui" name="">
+      <div title="Pulsame" class="cont-acceso" id="cont-acceso">
+        <img src="img/icon-acceso.png"><input id="pass" type="password" placeholder="Escribe tu clave aqui..." name="">
       </div>
       <p class="msAlerta" id="msAlerta"></p>
     </section>
     <section class="sec-diario" id="sec-diario">
-      <textarea id="areaText" placeholder="Escribe algo..."></textarea>
-        <div class="secBotones">
+      <textarea id="area-text" placeholder="Escribe algo..."></textarea>
+        <div class="secBotones" id="sec-botones-cipher">
           <div class="contLlave"><img src="img/icon-clave.png">Llave:
-            <input id="offset" type="number" name="">
+            <input id="offset" min="0" type="number" name="">
           </div>
           <button id="clear"></button>
-          <button id="btnCifrar">Cifrar</button>
-          <button id="btnDescifrar">Descifrar</button>
+          <button id="btn-cifrar">Cifrar</button>
+          <button id="btn-descifrar">Descifrar</button>
+        </div>
+        <div class="secBotones" id="sec-botones-mostrar">
+          <button id="btn-copiar"></button>
+          <button id="btn-regresar"></button>
         </div>
     </section>      
   </main>
-    <footer><p>Hecho con <img src="img/cerebro.png"> por
-<a href="">MarianWhat</a></p></footer>
+  <footer><p>Hecho con <img src="img/cerebro.png"> por <a href="https://www.instagram.com/marianwhat/">MarianWhat</a></p></footer>
     <script src="cipher.js"></script>
     <script src="app.js"></script>
   </body>
