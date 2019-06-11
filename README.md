@@ -20,4 +20,4 @@ Los usuarios podrán cifrar y descifrar sus escritos en el momento que lo deseen
 - Prototipo final en Balsamiq:
 ![image](https://user-images.githubusercontent.com/19483987/59091018-003db880-88d4-11e9-8947-616c2bc49777.png)
 
-## [Ver proyecto](https://marianwhat.github.io/LIM010-Cipher/src/ "titulo")
+## [Ver planificación](https://docs.google.com/document/d/12EmREJ2fMPsqwEOMmJSzJC-02cxqbLifR81sie_IofQ/edit?usp=sharing "titulo")

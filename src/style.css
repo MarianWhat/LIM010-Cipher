@@ -42,7 +42,7 @@ main section:after{
 }
 /*SecciÃƒÆ’Ã‚Â³n Acceso*/
 main .sec-inicio{
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -130,7 +130,7 @@ z-index: 0;
 main .sec-diario{
     background-color: #EFEFEF;
     padding: 0;
-    display: none;
+    display: block;
 }
 .sec-diario textarea{
     width: 100%;
@@ -154,6 +154,7 @@ main .sec-diario{
     background-color: white;
     padding: 10px 25px;
     color: #535d6f;
+    max-width: initial;
 }
 .secBotones .contLlave img{
     width: 20px;
@@ -174,7 +175,8 @@ main .sec-diario{
 }
 .secBotones button, .contLlave{
     height: 45px;
-    width: 150px;
+    width: 45%;
+    max-width: 150px;
     border-radius: 5px;
     padding: 10px;
     margin: 4px 8px;
