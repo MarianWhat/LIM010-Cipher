@@ -21,20 +21,15 @@ Los usuarios podrán cifrar y descifrar sus escritos en el momento que lo deseen
 ![image](https://user-images.githubusercontent.com/19483987/59091018-003db880-88d4-11e9-8947-616c2bc49777.png)
 
 - Prototipo maquetado y con estilo:
-![Imagen 1][1]  ![Imagen 2][2]!  [Imagen 3][3]  ![Imagen 4][4]  ![Imagen 5][5]!  [Imagen 6][6]  ![Imagen 7][7]
+![image](https://user-images.githubusercontent.com/19483987/59091018-003db880-88d4-11e9-8947-616c2bc49777.png)
 
- [1]: https://user-images.githubusercontent.com/19483987/59504713-24b40a80-8e69-11e9-9cd3-4964e959846a.png
- [2]: https://user-images.githubusercontent.com/19483987/59504711-24b40a80-8e69-11e9-964b-2a34874c3af8.png
- [3]: https://user-images.githubusercontent.com/19483987/59504710-24b40a80-8e69-11e9-94ca-9d90bb3c7e93.png
- [4]: https://user-images.githubusercontent.com/19483987/59504709-24b40a80-8e69-11e9-97ef-5a2a2f0e551c.png
- [5]: https://user-images.githubusercontent.com/19483987/59504708-241b7400-8e69-11e9-9018-e6897d3ae10b.png
- [6]: https://user-images.githubusercontent.com/19483987/59504706-241b7400-8e69-11e9-8a09-ba4926262590.png
- [7]: https://user-images.githubusercontent.com/19483987/59504714-24b40a80-8e69-11e9-9d2e-48dc5561720c.png
 
  - ¿Cual fue el 2do feedback?
   Fue de gran agrado, el usuario realizo todas las acciones esperadas, hasta llegar a la sección del resultado ya que no comprendió que hacer con los opciones mostradas "Copiar" y "Regresar".
-  ![image](https://user-images.githubusercontent.com/19483987/59504714-24b40a80-8e69-11e9-9d2e-48dc5561720c.png)
-  Se procedió a las modificaciones.
+  ![Watch 44mm – 1](https://user-images.githubusercontent.com/19483987/59514806-44f0c300-8e83-11e9-86eb-b1b020d2691a.jpg)
+
+  Se procedió a las modificaciones...
+  ![Watch 44mm – 1@2x](https://user-images.githubusercontent.com/19483987/59515572-0a882580-8e85-11e9-9899-76ab28b07a73.jpg)
 
 
 ## [Ver planificación](https://docs.google.com/document/d/12EmREJ2fMPsqwEOMmJSzJC-02cxqbLifR81sie_IofQ/edit?usp=sharing "titulo")
