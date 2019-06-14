@@ -6,15 +6,11 @@ const secInicio= document.getElementById('sec-inicio');
 const secDiario=document.getElementById('sec-diario');
 
 const areaText=document.getElementById('area-text');
-const areaTextDos=document.querySelector("#area-text");
 const offset=document.getElementById('offset');
 const clear=document.getElementById('clear');
 const btnCifra=document.getElementById('btn-cifrar');
 const btnDescifra=document.getElementById('btn-descifrar');
 const btnCopiar=document.getElementById('btn-copiar');
-const btnRegresar=document.getElementById('btn-regresar');
-const secBotonesCipher=document.getElementById('sec-botones-cipher');
-const secBotonesMostrar=document.getElementById('sec-botones-mostrar');
 
 let cadenaMostrar='';
 let intentos = 3;
@@ -52,13 +48,6 @@ const borrar = () => {
 }
 const mostrar= () => {
 	areaText.value = cadenaMostrar;
-}
-const regresar=  () =>{
-	cadenaMostrar='';
-	areaText.value = '';
-	offset.value='';
-	secBotonesCipher.classList.remove("none");
-	secBotonesMostrar.classList.remove("flex");
 }
 const copiar=  () =>{
 	areaText.focus();
