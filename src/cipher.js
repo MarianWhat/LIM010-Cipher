@@ -45,7 +45,7 @@
 
 
 
-CIPHER BASICO
+// // CIPHER BASICO
 window.cipher = {
   encode: (offset, string) => {
     let cantCaracteres=string.length;
