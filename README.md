@@ -29,6 +29,7 @@ Los usuarios podrán cifrar y descifrar sus escritos en el momento que lo deseen
   ![Watch 44mm – 1](https://user-images.githubusercontent.com/19483987/59514806-44f0c300-8e83-11e9-86eb-b1b020d2691a.jpg)
 
   Se procedió a las modificaciones...
+  ![Watch 44mm – 1@2x](https://user-images.githubusercontent.com/19483987/59515572-0a882580-8e85-11e9-9899-76ab28b07a73.jpg)
 
 
 ## [Ver planificación](https://docs.google.com/document/d/12EmREJ2fMPsqwEOMmJSzJC-02cxqbLifR81sie_IofQ/edit?usp=sharing "titulo")
