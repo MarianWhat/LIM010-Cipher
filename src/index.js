@@ -1,10 +1,12 @@
 const inputContrasena = document.getElementById('input-contrasena');
 const mensajeAlerta =document.getElementById('mensaje-alerta');
+const mensajes=document.getElementById('mensajes');
 const contAcceso= document.getElementById('cont-acceso');
 const secInicio= document.getElementById('sec-inicio');
 const secDiario=document.getElementById('sec-diario');
 
 const areaText=document.getElementById('area-text');
+const areaTextDos=document.querySelector("#area-text");
 const offset=document.getElementById('offset');
 const clear=document.getElementById('clear');
 const btnCifra=document.getElementById('btn-cifrar');
@@ -28,13 +30,10 @@ inputContrasena.addEventListener('keyup', (event) =>{
 		validar(inputContrasena.value);
 	}
 });
-
 const validar= (password) => {
 	if (password==='LABORATORIA') {
 		secDiario.classList.add('block');
 		secInicio.classList.add('none');
-
-
 	} else {
 		intentos--;
 				if (intentos>0) {
@@ -52,10 +51,7 @@ const borrar = () => {
 	offset.value=''
 }
 const mostrar= () => {
-	secBotonesCipher.classList.add('none');
-	secBotonesMostrar.classList.add('flex');
 	areaText.value = cadenaMostrar;
-  areaText.setAttribute('readonly', '');
 }
 const regresar=  () =>{
 	cadenaMostrar='';
@@ -63,13 +59,15 @@ const regresar=  () =>{
 	offset.value='';
 	secBotonesCipher.classList.remove("none");
 	secBotonesMostrar.classList.remove("flex");
-  areaText.removeAttribute('readonly');
 }
 const copiar=  () =>{
 	areaText.focus();
 	document.execCommand('selectAll');
 	document.execCommand('copy');
 	areaText.blur();
+	mensajes.classList.add("block");
+	setTimeout(() => {
+	mensajes.classList.remove("block")}, 1300);
 }
 // 
 // Acciones de Botones
@@ -79,8 +77,7 @@ btnCifra.addEventListener('click', () => {
 	mostrar();
 });
 btnDescifra.addEventListener('click', () => {
-	cadenaMostrar =  cipher.decode(offset.value, areaText.value);
+	cadenaMostrar = cipher.decode(offset.value, areaText.value);
 	mostrar();
 	});
 btnCopiar.addEventListener('click',copiar);
-btnRegresar.addEventListener('click', regresar);

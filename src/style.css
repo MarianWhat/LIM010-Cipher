@@ -40,7 +40,7 @@ main section:after{
     left: 0;
     z-index: 0;
 }
-/*SecciÃƒÆ’Ã‚Â³n Acceso*/
+/*SecciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n Acceso*/
 main .sec-inicio{
     display: flex;
     flex-direction: column;
@@ -126,7 +126,7 @@ background-color: #e23943;
 z-index: 0;
 }
 
-/*SecciÃƒÆ’Ã‚Â³n Diario*/
+/*SecciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n Diario*/
 main .sec-diario{
     background-color: #EFEFEF;
     padding: 0;
@@ -140,9 +140,9 @@ main .sec-diario{
     z-index: 1;
 }
 .sec-botones{
-    width: 80%;
-    height: 105px;
-    margin: 8px auto 0px;
+    width: 96%;
+    height: 104px;
+    margin: 12px auto 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -152,7 +152,7 @@ main .sec-diario{
     align-items: center;
     width: initial;
     background-color: white;
-    padding: 10px 25px;
+    padding: 10px 10px;
     color: #535d6f;
     max-width: initial;
 }
@@ -179,16 +179,28 @@ main .sec-diario{
     max-width: 150px;
     border-radius: 5px;
     padding: 10px;
-    margin: 4px 8px;
+    margin: 2px 4px;
     font-size: 15px;
     background-repeat: no-repeat;
     background-position: 50%;
 }
+#clear, #btn-copiar{
+    width: 65px;
+}
 #clear{
     background-image: url(img/icon-limpiar.png);
-    background-color: #ACA9AD;
+    background-color: #00beef;
     background-size: 45%;
-    width: 65px;
+}
+#btn-copiar{
+    background-color: #aca9ad;
+    background-image: url(img/icon-copiar.png);
+    background-size: 27%;
+}
+#btn-regresar{
+    background-color: #ef424c;
+    background-image: url(img/icon-regresar.png);
+    background-size: 15%;
 }
 #btn-cifrar, #btn-descifrar{
     color:white;
@@ -201,25 +213,11 @@ main .sec-diario{
     background-color: #2D3440;
 }
 /* Botones Mostrar */
-#sec-botones-mostrar{
-    
+#sec-botones-mostrar{    
 z-index: 1;
-    
 height: 59px;
-    
 margin: 35px auto;
-    
 display: none;
-}
-#btn-copiar{
-    background-color: #aca9ad;
-    background-image: url(img/icon-copiar.png);
-    background-size: 15%;
-}
-#btn-regresar{
-    background-color: #ef424c;
-    background-image: url(img/icon-regresar.png);
-    background-size: 15%;
 }
 footer{
     background-color: #26D3FF;
@@ -236,16 +234,31 @@ footer img{
     width: 20px;
     margin: 0 6px;
 }
+#mensajes{
+    position: absolute;
+    background-color: #ffffffd6;
+    color: #b1b1b1;
+    padding: 11px 39px;
+    top: 45px;
+    box-shadow: 0px 0px 7px -1px #d6d6d6;
+    border-radius: 6px;
+    opacity: 0;
+    z-index: 0;
+    transition: .4S;
+    }
 
 .none{
+    opacity: 0 !important;
     display: none !important;
 }
 .flex{
     display: flex !important;
+    opacity: 1 !important;
 }
 .block{
     display: block !important;
+    opacity: 1 !important;
+    z-index: 1 !important;
 }
-
 
 
