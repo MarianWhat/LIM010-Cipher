@@ -5,34 +5,35 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   </head>
   <body>
     <header><img src="img/DiarioApp.png"></header>
     <main>
-    <section class="sec-inicio" id="sec-inicio">
-      <div title="Pulsame" class="cont-acceso" id="cont-acceso">
-        <img src="img/icon-acceso.png"><input id="pass" type="password" placeholder="Escribe tu clave aqui..." name="">
-      </div>
-      <p class="msAlerta" id="msAlerta"></p>
-    </section>
-    <section class="sec-diario" id="sec-diario">
-      <textarea id="area-text" placeholder="Escribe algo..."></textarea>
-        <div class="secBotones" id="sec-botones-cipher">
-          <div class="contLlave"><img src="img/icon-clave.png">Llave:
-            <input id="offset" min="0" type="number" name="">
+      <section class="sec-inicio" id="sec-inicio">
+        <div title="Pulsame" class="cont-acceso" id="cont-acceso">
+          <img src="img/icon-acceso.png"><input id="input-contrasena" type="password" placeholder="Escribe tu clave aqui..." name="">
+        </div>
+        <p class="mensaje-alerta" id="mensaje-alerta"></p>
+      </section>
+      <section class="sec-diario" id="sec-diario">
+        <textarea id="area-text" placeholder="Escribe algo..."></textarea>
+        <div class="sec-botones" id="sec-botones-cipher">
+          <div class="sec-offser"><img src="img/icon-clave.png">Llave:
+            <input id="offset"  type="number" name="">
           </div>
-          <button id="clear"></button>
+          <button id="clear"></button>          
+          <button id="btn-copiar"></button>
           <button id="btn-cifrar">Cifrar</button>
           <button id="btn-descifrar">Descifrar</button>
         </div>
-        <div class="secBotones" id="sec-botones-mostrar">
-          <button id="btn-copiar"></button>
-          <button id="btn-regresar"></button>
-        </div>
-    </section>      
-  </main>
-  <footer><p>Hecho con <img src="img/cerebro.png"> por <a href="https://www.instagram.com/marianwhat/">MarianWhat</a></p></footer>
+      </section>
+      <P id="mensajes">Copiado en el portapapel.</P>
+    </main>
+  <footer>
+    <p>Hecho con <img src="img/cerebro.png"> por <a href="https://www.instagram.com/marianwhat/">MarianWhat</a></p>
+  </footer>
+    <script src="index.js"></script>
     <script src="cipher.js"></script>
-    <script src="app.js"></script>
   </body>
 </html>
