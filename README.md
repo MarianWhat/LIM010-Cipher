@@ -22,7 +22,7 @@ Los usuarios podrán cifrar y descifrar sus escritos en el momento que lo deseen
 
 - Prototipo maquetado y con estilo:
 
-![Imagen 1][1]  ![Imagen 2][2] ![Imagen 3][3]  ![Imagen 4][4]  ![Imagen 5][5]  ![Imagen 6][6]  ![Imagen 7][7]
+<!-- ![Imagen 1][1]  ![Imagen 2][2] ![Imagen 3][3]  ![Imagen 4][4]  ![Imagen 5][5]  ![Imagen 6][6]  ![Imagen 7][7] -->
 
 [1]: https://user-images.githubusercontent.com/19483987/59504713-24b40a80-8e69-11e9-9cd3-4964e959846a.png
 [2]: https://user-images.githubusercontent.com/19483987/59504711-24b40a80-8e69-11e9-964b-2a34874c3af8.png
