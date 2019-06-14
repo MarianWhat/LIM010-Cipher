@@ -22,9 +22,9 @@ Los usuarios podrán cifrar y descifrar sus escritos en el momento que lo deseen
 
 - Prototipo maquetado y con estilo:
 
-![Imagen 1][1]  ![Imagen 2][2]! [Imagen 3][3] ![Imagen 4][4] ![Imagen 5][5]! [Imagen 6][6] ![Imagen 7][7]
+![Imagen 1][1]  ![Imagen 2][2] ![Imagen 3][3]  ![Imagen 4][4]  ![Imagen 5][5]  ![Imagen 6][6]  ![Imagen 7][7]
 
-[1]:https://user-images.githubusercontent.com/19483987/59504713-24b40a80-8e69-11e9-9cd3-4964e959846a.png
+[1]: https://user-images.githubusercontent.com/19483987/59504713-24b40a80-8e69-11e9-9cd3-4964e959846a.png
 [2]: https://user-images.githubusercontent.com/19483987/59504711-24b40a80-8e69-11e9-964b-2a34874c3af8.png
 [3]: https://user-images.githubusercontent.com/19483987/59504710-24b40a80-8e69-11e9-94ca-9d90bb3c7e93.png
 [4]: https://user-images.githubusercontent.com/19483987/59504709-24b40a80-8e69-11e9-97ef-5a2a2f0e551c.png
@@ -36,7 +36,6 @@ Los usuarios podrán cifrar y descifrar sus escritos en el momento que lo deseen
   Fue de gran agrado, el usuario realizo todas las acciones esperadas, hasta llegar a la sección del resultado ya que no comprendió que hacer con los opciones mostradas "Copiar" y "Regresar".
   ![image](https://user-images.githubusercontent.com/19483987/59504714-24b40a80-8e69-11e9-9d2e-48dc5561720c.png)
 
-g
   Se procedió a las modificaciones.
 
 
