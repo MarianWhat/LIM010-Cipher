@@ -26,21 +26,24 @@ inputContrasena.addEventListener('keyup', (event) =>{
 		validar(inputContrasena.value);
 	}
 });
+
 const validar= (password) => {
 	if (password==='LABORATORIA') {
 		secDiario.classList.add('block');
 		secInicio.classList.add('none');
 	} else {
-		intentos--;
-				if (intentos>0) {
-					mensajeAlerta.innerHTML=`Clave incorrecta, te quedan ${intentos} intento(s).`;
-		inputContrasena.value='';
-	} else {
-		contAcceso.innerHTML=`<img src="img/icon-bloq.png">`;
-		mensajeAlerta.innerHTML=`Ya utilizaste todos tus intentos, en este momento no podrás ingresar`;
-		secInicio.classList.add("contBloquedo");
+		do {
+			intentos--;
+			mensajeAlerta.innerHTML=`Clave incorrecta, te quedan ${intentos} intento(s).`;
+			inputContrasena.value='';
+			break;
+		}while(intentos > 0);
 	}
- }
+	if (intentos===0){
+			contAcceso.innerHTML=`<img src="img/icon-bloq.png">`;
+			mensajeAlerta.innerHTML=`Ya utilizaste todos tus intentos, en este momento no podrás ingresar`;
+			secInicio.classList.add("contBloquedo");
+		}
 }
 const borrar = () => {
 	areaText.value = '';
