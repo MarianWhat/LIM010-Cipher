@@ -9,8 +9,8 @@
   </head>
   <body>
     <header><img src="img/DiarioApp.png" alt="Logo DiarioApp"></header>
-    <main>
-      <div class="sec-inicio" id="sec-inicio">
+    <main class="flexbox">
+      <div class="flexbox sec-inicio" id="sec-inicio">
         <div title="Pulsame" class="cont-acceso" id="cont-acceso">
           <img class="img-candado" src="img/icon-acceso.png" alt="candado">
           <input class="input-contrasena" id="input-contrasena" type="password" placeholder="Escribe tu clave" >
@@ -20,8 +20,8 @@
       </div>
       <div class="sec-diario" id="sec-diario">
         <textarea id="area-text" placeholder="Escribe algo..."></textarea>
-        <div class="sec-botones" id="sec-botones-cipher">
-          <div class="sec-offser">
+        <div class="flexbox sec-botones" id="sec-botones-cipher">
+          <div class="flexbox sec-offser">
             <img src="img/icon-clave.png" alt="llave">Llave:
             <input id="offset"  type="number">
           </div>
@@ -34,7 +34,7 @@
       <p id="mensajes">Copiado en el portapapel.</p>
     </main>
     <footer>
-      <p>Hecho con <img src="img/cerebro.png" alt="cerebro"> por MarianWhat</p>
+      <p class="flexbox">Hecho con <img src="img/cerebro.png" alt="cerebro"> por MarianWhat</p>
     </footer>
     <script src="index.js"></script>
     <script src="cipher.js"></script>

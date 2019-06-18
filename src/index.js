@@ -13,8 +13,6 @@ const btnDescifra=document.getElementById('btn-descifrar');
 const btnCopiar=document.getElementById('btn-copiar');
 const btnMostrarClave=document.getElementById('icon-clave');
 
-
-
 let cadenaMostrar='';
 let intentos = 3;
 let claveOculta= 0;
