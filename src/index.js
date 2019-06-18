@@ -40,9 +40,9 @@ const validar= (password) => {
 		}while(intentos > 0);
 	}
 	if (intentos===0){
-			contAcceso.innerHTML=`<img src="img/icon-bloq.png">`;
-			mensajeAlerta.innerHTML=`Ya utilizaste todos tus intentos, en este momento no podrás ingresar`;
-			secInicio.classList.add("contBloquedo");
+		contAcceso.innerHTML=`<img src="img/icon-bloq.png">`;
+		mensajeAlerta.innerHTML=`Ya utilizaste todos tus intentos, en este momento no podrás ingresar`;
+		secInicio.classList.add("contBloquedo");
 		}
 }
 const borrar = () => {
@@ -61,7 +61,7 @@ const copiar=  () =>{
 	setTimeout(() => {
 	mensajes.classList.remove("block")}, 1300);
 }
-// 
+
 // Acciones de Botones
 clear.addEventListener('click',borrar);
 btnCifra.addEventListener('click', () => { 
@@ -71,5 +71,5 @@ btnCifra.addEventListener('click', () => {
 btnDescifra.addEventListener('click', () => {
 	cadenaMostrar = cipher.decode(offset.value, areaText.value);
 	mostrar();
-	});
+});
 btnCopiar.addEventListener('click',copiar);

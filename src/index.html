@@ -10,17 +10,18 @@
   <body>
     <header><img src="img/DiarioApp.png" alt="Logo DiarioApp"></header>
     <main>
-      <section class="sec-inicio" id="sec-inicio">
+      <div class="sec-inicio" id="sec-inicio">
         <div title="Pulsame" class="cont-acceso" id="cont-acceso">
-          <img src="img/icon-acceso.png" alt="candado">
-          <input id="input-contrasena" type="password" placeholder="Escribe tu clave aqui..." >
+          <img class="img-candado" src="img/icon-acceso.png" alt="candado">
+          <input class="input-contrasena" id="input-contrasena" type="password" placeholder="Escribe tu clave aqui..." >
         </div>
         <p class="mensaje-alerta" id="mensaje-alerta"></p>
-      </section>
-      <section class="sec-diario" id="sec-diario">
+      </div>
+      <div class="sec-diario" id="sec-diario">
         <textarea id="area-text" placeholder="Escribe algo..."></textarea>
         <div class="sec-botones" id="sec-botones-cipher">
-          <div class="sec-offser"><img src="img/icon-clave.png" alt="llave">Llave:
+          <div class="sec-offser">
+            <img src="img/icon-clave.png" alt="llave">Llave:
             <input id="offset"  type="number">
           </div>
           <button id="clear"></button>          
@@ -28,12 +29,12 @@
           <button id="btn-cifrar">Cifrar</button>
           <button id="btn-descifrar">Descifrar</button>
         </div>
-      </section>
+      </div>
       <p id="mensajes">Copiado en el portapapel.</p>
     </main>
-  <footer>
-    <p>Hecho con <img src="img/cerebro.png" alt="cerebro"> por MarianWhat</p>
-  </footer>
+    <footer>
+      <p>Hecho con <img src="img/cerebro.png" alt="cerebro"> por MarianWhat</p>
+    </footer>
     <script src="index.js"></script>
     <script src="cipher.js"></script>
   </body>
