@@ -11,13 +11,18 @@ const clear=document.getElementById('clear');
 const btnCifra=document.getElementById('btn-cifrar');
 const btnDescifra=document.getElementById('btn-descifrar');
 const btnCopiar=document.getElementById('btn-copiar');
+const btnMostrarClave=document.getElementById('icon-clave');
+
+
 
 let cadenaMostrar='';
 let intentos = 3;
+let claveOculta= 0;
 
 contAcceso.addEventListener('click', () => {
 	contAcceso.classList.add('click');
 	inputContrasena.focus();
+	contAcceso.removeAttribute('title');
 });
 
 // Login
@@ -61,7 +66,17 @@ const copiar=  () =>{
 	setTimeout(() => {
 	mensajes.classList.remove("block")}, 1300);
 }
-
+const mostrarClave =() =>{
+	if (claveOculta===0) {
+		inputContrasena.setAttribute("type", "text");
+		claveOculta=1;		 
+		btnMostrarClave.classList.add("mostrar")
+	}else{
+		inputContrasena.setAttribute("type", "password");
+		claveOculta=0;		 
+		btnMostrarClave.classList.remove("mostrar")
+	}
+}
 // Acciones de Botones
 clear.addEventListener('click',borrar);
 btnCifra.addEventListener('click', () => { 
@@ -73,3 +88,4 @@ btnDescifra.addEventListener('click', () => {
 	mostrar();
 });
 btnCopiar.addEventListener('click',copiar);
+btnMostrarClave.addEventListener('click', mostrarClave);
